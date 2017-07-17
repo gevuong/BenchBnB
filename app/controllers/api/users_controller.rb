@@ -12,7 +12,7 @@ class Api::UsersController < ApplicationController
     else
       render json: @user.errors.full_messages, status: 422
       # 422: unprocessable entity
-      
+
     end
   end
 
