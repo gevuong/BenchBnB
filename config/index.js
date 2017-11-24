@@ -4,8 +4,9 @@ var configValues = require('./config');
 // returns connection string to the DB to connect to Mongo via Mongoose. You can pass in an option as an arg to determine if you want dev or prod, and return proper connection string.
 module.exports = {
   getDBConnectionString: function() {
-    return 'mongodb://' + configValues.username + ':' + configValues.password + '@ds251845.mlab.com:51845/public_transit_systems';
+    return 'mongodb://' + configValues.username + ':' + configValues.password + '@ds117316.mlab.com:17316/heroku_hsglzx5t';
   }
 };
 
+// mongodb://<dbuser>:<dbpassword>@ds117316.mlab.com:17316/heroku_hsglzx5t
 // heroku config:set PROD_MONGODB=mongodb://guest:guest@ds251845.mlab.com:51845/public_transit_systems
