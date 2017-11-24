@@ -8,5 +8,7 @@ module.exports = {
   }
 };
 
+// heroku config:set DBUSER_SECRET=guest DBPASSWORD_SECRET=guest
+
 // mongodb://<dbuser>:<dbpassword>@ds117316.mlab.com:17316/heroku_hsglzx5t
-// heroku config:set PROD_MONGODB=mongodb://guest:guest@ds251845.mlab.com:51845/public_transit_systems
+// heroku config:set PROD_MONGODB=mongodb://guest:guest@ds117316.mlab.com:17316/heroku_hsglzx5t
